@@ -83,3 +83,4 @@ package() {
         install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
     fi
 }
+
