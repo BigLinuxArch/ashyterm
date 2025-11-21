@@ -21,8 +21,8 @@ provides=('comm-ashyterm')
 replaces=('comm-ashyterm')
 #makedepends=('')
 #optdepends=('')
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=25.11.12
+pkgrel=1942
 arch=('any')
 license=('MIT')
 url="https://github.com/big-comm/${pkgname}"
@@ -83,4 +83,3 @@ package() {
         install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
     fi
 }
-
